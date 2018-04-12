@@ -1,0 +1,39 @@
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormAutentification.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormMain.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCounter.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounter.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterElectricity.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterHotWater.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterColdWater.resources
+c:\users\darya\documents\visual studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterGas.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormAddCounter.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounter.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormAutentification.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCounter.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterColdWater.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterElectricity.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterGas.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormCurentCounterHotWater.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormMain.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormDeleteCounter.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormBoilers.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormUpdateCounter.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormAddBoiler.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormFindCounter.resources
+E:\Desktop\Study\БД\Проект\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.FormIndications.resources

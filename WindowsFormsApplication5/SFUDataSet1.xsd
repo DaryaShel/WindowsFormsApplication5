@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SFUDataSet1" targetNamespace="http://tempuri.org/SFUDataSet1.xsd" xmlns:mstns="http://tempuri.org/SFUDataSet1.xsd" xmlns="http://tempuri.org/SFUDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="connString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="connString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication5.Properties.Settings.GlobalReference.Default.connString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="wvCurentCounterHotWaterTableAdapter" GeneratorDataComponentClassName="wvCurentCounterHotWaterTableAdapter" Name="wvCurentCounterHotWater" UserDataComponentName="wvCurentCounterHotWaterTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="connString (Settings)" DbObjectName="SFU.dbo.wvCurentCounterHotWater" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Код_счетчика, Здание, Ресурс, Дата_установки, Дата_проверки FROM dbo.wvCurentCounterHotWater</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Код_счетчика" DataSetColumn="Код_счетчика" />
+              <Mapping SourceColumn="Здание" DataSetColumn="Здание" />
+              <Mapping SourceColumn="Ресурс" DataSetColumn="Ресурс" />
+              <Mapping SourceColumn="Дата_установки" DataSetColumn="Дата_установки" />
+              <Mapping SourceColumn="Дата_проверки" DataSetColumn="Дата_проверки" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SFUDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SFUDataSet1" msprop:Generator_UserDSName="SFUDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="wvCurentCounterHotWater" msprop:Generator_TableClassName="wvCurentCounterHotWaterDataTable" msprop:Generator_TableVarName="tablewvCurentCounterHotWater" msprop:Generator_TablePropName="wvCurentCounterHotWater" msprop:Generator_RowDeletingName="wvCurentCounterHotWaterRowDeleting" msprop:Generator_RowChangingName="wvCurentCounterHotWaterRowChanging" msprop:Generator_RowEvHandlerName="wvCurentCounterHotWaterRowChangeEventHandler" msprop:Generator_RowDeletedName="wvCurentCounterHotWaterRowDeleted" msprop:Generator_UserTableName="wvCurentCounterHotWater" msprop:Generator_RowChangedName="wvCurentCounterHotWaterRowChanged" msprop:Generator_RowEvArgName="wvCurentCounterHotWaterRowChangeEvent" msprop:Generator_RowClassName="wvCurentCounterHotWaterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Код_счетчика" msprop:Generator_ColumnVarNameInTable="columnКод_счетчика" msprop:Generator_ColumnPropNameInRow="Код_счетчика" msprop:Generator_ColumnPropNameInTable="Код_счетчикаColumn" msprop:Generator_UserColumnName="Код_счетчика">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Здание" msprop:Generator_ColumnVarNameInTable="columnЗдание" msprop:Generator_ColumnPropNameInRow="Здание" msprop:Generator_ColumnPropNameInTable="ЗданиеColumn" msprop:Generator_UserColumnName="Здание">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ресурс" msprop:Generator_ColumnVarNameInTable="columnРесурс" msprop:Generator_ColumnPropNameInRow="Ресурс" msprop:Generator_ColumnPropNameInTable="РесурсColumn" msprop:Generator_UserColumnName="Ресурс" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_установки" msprop:Generator_ColumnVarNameInTable="columnДата_установки" msprop:Generator_ColumnPropNameInRow="Дата_установки" msprop:Generator_ColumnPropNameInTable="Дата_установкиColumn" msprop:Generator_UserColumnName="Дата_установки" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Дата_проверки" msprop:Generator_ColumnVarNameInTable="columnДата_проверки" msprop:Generator_ColumnPropNameInRow="Дата_проверки" msprop:Generator_ColumnPropNameInTable="Дата_проверкиColumn" msprop:Generator_UserColumnName="Дата_проверки" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SFUDataSet7" targetNamespace="http://tempuri.org/SFUDataSet7.xsd" xmlns:mstns="http://tempuri.org/SFUDataSet7.xsd" xmlns="http://tempuri.org/SFUDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="connString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="connString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication5.Properties.Settings.GlobalReference.Default.connString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="wvBoilerTableAdapter" GeneratorDataComponentClassName="wvBoilerTableAdapter" Name="wvBoiler" UserDataComponentName="wvBoilerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="connString (Settings)" DbObjectName="SFU.dbo.wvBoiler" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Код_бойлера, Здание, Тариф_Норма, Тариф_Выше_нормы FROM dbo.wvBoiler</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Код_бойлера" DataSetColumn="Код_бойлера" />
+              <Mapping SourceColumn="Здание" DataSetColumn="Здание" />
+              <Mapping SourceColumn="Тариф_Норма" DataSetColumn="Тариф_Норма" />
+              <Mapping SourceColumn="Тариф_Выше_нормы" DataSetColumn="Тариф_Выше_нормы" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SFUDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SFUDataSet7" msprop:Generator_UserDSName="SFUDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="wvBoiler" msprop:Generator_TableClassName="wvBoilerDataTable" msprop:Generator_TableVarName="tablewvBoiler" msprop:Generator_TablePropName="wvBoiler" msprop:Generator_RowDeletingName="wvBoilerRowDeleting" msprop:Generator_RowChangingName="wvBoilerRowChanging" msprop:Generator_RowEvHandlerName="wvBoilerRowChangeEventHandler" msprop:Generator_RowDeletedName="wvBoilerRowDeleted" msprop:Generator_UserTableName="wvBoiler" msprop:Generator_RowChangedName="wvBoilerRowChanged" msprop:Generator_RowEvArgName="wvBoilerRowChangeEvent" msprop:Generator_RowClassName="wvBoilerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Код_бойлера" msprop:Generator_ColumnVarNameInTable="columnКод_бойлера" msprop:Generator_ColumnPropNameInRow="Код_бойлера" msprop:Generator_ColumnPropNameInTable="Код_бойлераColumn" msprop:Generator_UserColumnName="Код_бойлера" type="xs:int" />
+              <xs:element name="Здание" msprop:Generator_ColumnVarNameInTable="columnЗдание" msprop:Generator_ColumnPropNameInRow="Здание" msprop:Generator_ColumnPropNameInTable="ЗданиеColumn" msprop:Generator_UserColumnName="Здание">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Тариф_Норма" msprop:Generator_ColumnVarNameInTable="columnТариф_Норма" msprop:Generator_ColumnPropNameInRow="Тариф_Норма" msprop:Generator_ColumnPropNameInTable="Тариф_НормаColumn" msprop:Generator_UserColumnName="Тариф_Норма" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Тариф_Выше_нормы" msprop:Generator_ColumnVarNameInTable="columnТариф_Выше_нормы" msprop:Generator_ColumnPropNameInRow="Тариф_Выше_нормы" msprop:Generator_ColumnPropNameInTable="Тариф_Выше_нормыColumn" msprop:Generator_UserColumnName="Тариф_Выше_нормы" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

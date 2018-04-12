@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{236B6423-0538-4683-84E6-234C9E22AE7F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication5</RootNamespace>
+    <AssemblyName>WindowsFormsApplication5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAddBoiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddBoiler.Designer.cs">
+      <DependentUpon>FormAddBoiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddCounter.Designer.cs">
+      <DependentUpon>FormAddCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBoilers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBoilers.Designer.cs">
+      <DependentUpon>FormBoilers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCurentCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCurentCounter.Designer.cs">
+      <DependentUpon>FormCurentCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAutentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutentification.Designer.cs">
+      <DependentUpon>FormAutentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCounter.Designer.cs">
+      <DependentUpon>FormCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCurentCounterColdWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCurentCounterColdWater.Designer.cs">
+      <DependentUpon>FormCurentCounterColdWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCurentCounterElectricity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCurentCounterElectricity.Designer.cs">
+      <DependentUpon>FormCurentCounterElectricity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCurentCounterGas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCurentCounterGas.Designer.cs">
+      <DependentUpon>FormCurentCounterGas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeleteCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteCounter.Designer.cs">
+      <DependentUpon>FormDeleteCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFindCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFindCounter.Designer.cs">
+      <DependentUpon>FormFindCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIndications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIndications.Designer.cs">
+      <DependentUpon>FormIndications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCurentCounterHotWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCurentCounterHotWater.Designer.cs">
+      <DependentUpon>FormCurentCounterHotWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdateCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdateCounter.Designer.cs">
+      <DependentUpon>FormUpdateCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SFUDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SFUDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SFUDataSet9.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAddBoiler.resx">
+      <DependentUpon>FormAddBoiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddCounter.resx">
+      <DependentUpon>FormAddCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBoilers.resx">
+      <DependentUpon>FormBoilers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCurentCounter.resx">
+      <DependentUpon>FormCurentCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutentification.resx">
+      <DependentUpon>FormAutentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCounter.resx">
+      <DependentUpon>FormCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCurentCounterColdWater.resx">
+      <DependentUpon>FormCurentCounterColdWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCurentCounterElectricity.resx">
+      <DependentUpon>FormCurentCounterElectricity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCurentCounterGas.resx">
+      <DependentUpon>FormCurentCounterGas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCurentCounterHotWater.resx">
+      <DependentUpon>FormCurentCounterHotWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeleteCounter.resx">
+      <DependentUpon>FormDeleteCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFindCounter.resx">
+      <DependentUpon>FormFindCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIndications.resx">
+      <DependentUpon>FormIndications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdateCounter.resx">
+      <DependentUpon>FormUpdateCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SFUDataSet.xsc">
+      <DependentUpon>SFUDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet.xss">
+      <DependentUpon>SFUDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet1.xsc">
+      <DependentUpon>SFUDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet1.xss">
+      <DependentUpon>SFUDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet10.xsc">
+      <DependentUpon>SFUDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet10.xss">
+      <DependentUpon>SFUDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet11.xsc">
+      <DependentUpon>SFUDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet11.xss">
+      <DependentUpon>SFUDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet12.xsc">
+      <DependentUpon>SFUDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet12.xss">
+      <DependentUpon>SFUDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet2.xsc">
+      <DependentUpon>SFUDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet2.xss">
+      <DependentUpon>SFUDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet3.xsc">
+      <DependentUpon>SFUDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet3.xss">
+      <DependentUpon>SFUDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet4.xsc">
+      <DependentUpon>SFUDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet4.xss">
+      <DependentUpon>SFUDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet5.xsc">
+      <DependentUpon>SFUDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet5.xss">
+      <DependentUpon>SFUDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet6.xsc">
+      <DependentUpon>SFUDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet6.xss">
+      <DependentUpon>SFUDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet7.xsc">
+      <DependentUpon>SFUDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet7.xss">
+      <DependentUpon>SFUDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet8.xsc">
+      <DependentUpon>SFUDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet8.xss">
+      <DependentUpon>SFUDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet9.xsc">
+      <DependentUpon>SFUDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SFUDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SFUDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SFUDataSet9.xss">
+      <DependentUpon>SFUDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
